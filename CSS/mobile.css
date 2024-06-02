@@ -1,0 +1,272 @@
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+  header nav {
+    flex-direction: column;
+    height: 150px;
+    padding: 15px 0;
+  }
+  header nav .logo {
+    margin: 10px 0;
+  }
+  header .hero {
+    height: fit-content;
+    padding: 15px;
+  }
+  header .hero .text {
+    align-items: center;
+  }
+  header .hero img {
+    display: none;
+  }
+  header .hero h1 {
+    font-size: 50px !important;
+  }
+  main .services {
+    flex-direction: column;
+    padding: 35px 15px;
+  }
+  main .services div {
+    width: 100% !important;
+  }
+  main .services .text {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  main .services .card {
+    transform: none !important;
+    margin: 10px 0;
+  }
+  main .about {
+    flex-direction: column;
+  }
+  main .about img {
+    margin-bottom: 20px;
+  }
+  main .our-numbers {
+    padding: 15px;
+  }
+  main .about {
+    padding: 30px;
+  }
+  main .latest-project {
+    padding: 20px;
+    align-items: center;
+  }
+  main .latest-project .top {
+    flex-direction: column;
+  }
+  main .latest-project .top .text {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  main .latest-project img {
+    margin: 10px;
+  }
+  main .latest-project .bottom {
+    flex-direction: column;
+  }
+  .logos {
+    padding: 15px;
+  }
+  .logos img {
+    width: 250px;
+  }
+  .choose .content div {
+    height: 200px !important;
+  }
+  .team .content,
+  .portofolio .content {
+    justify-content: center;
+  }
+  .portofolio {
+    padding: 15px;
+  }
+  .testiomonials {
+    padding: 15px;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .testiomonials .text {
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .testiomonials .text p {
+    width: 100%;
+  }
+  .latest-news .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .latest-news {
+    padding: 15px;
+  }
+  .contact {
+    padding: 15px;
+    flex-direction: column;
+  }
+  .contact .text p {
+    width: 100%;
+  }
+  .contact form {
+    width: 100%;
+  }
+  footer {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  header .hero {
+    padding: 40px 0;
+    height: fit-content;
+  }
+  header .hero .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+  }
+  header .hero h1 {
+    font-size: 35px !important;
+  }
+  header .hero > p {
+    width: 75% !important;
+  }
+  .text h1 {
+    font-size: 30px !important;
+  }
+  .choose {
+    padding: 20px;
+  }
+  .choose .text {
+    flex-direction: column;
+  }
+  .choose .text .title,
+  .choose .text .second {
+    width: 100%;
+  }
+  .choose .content {
+    flex-direction: column;
+  }
+  .choose .content div {
+    width: 100%;
+    height: 100% !important;
+    margin: 10px;
+  }
+  .choose .content div:last-child {
+    transform: none;
+  }
+  .team {
+    padding: 15px;
+    background: black !important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .text p {
+    width: 100% !important;
+  }
+  header nav {
+    flex-direction: column;
+    height: fit-content;
+  }
+  header nav .logo {
+    margin: 10px 0;
+  }
+  header nav .logo h1 {
+    font-size: 35px;
+  }
+  header nav .logo p {
+    font-size: 8px;
+  }
+  header nav ul li {
+    margin: 5px;
+  }
+  header nav ul li a {
+    font-size: 9.5px;
+  }
+  header .hero .text > span {
+    font-size: 15px !important;
+  }
+  header .hero .text h1 {
+    font-size: 25px !important;
+  }
+  header .hero .text > p {
+    width: 90% !important;
+    font-size: 12px !important;
+  }
+  main .about > img {
+    display: none;
+  }
+  main .about .text > div {
+    flex-direction: column;
+  }
+  main .our-numbers {
+    flex-direction: column;
+  }
+  main .our-numbers div {
+    margin: 15px 0;
+  }
+  main .latest-project .top .text {
+    align-items: flex-start;
+  }
+  main .latest-project .top .text p {
+    width: 100%;
+  }
+  main .latest-project img {
+    width: 270px;
+  }
+  main .logos {
+    padding: 20px;
+    justify-content: center;
+  }
+  .choose .content div i {
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+  }
+  .latest-news .content .card .icons {
+    justify-content: space-between;
+  }
+  .latest-news .content .card .icons div {
+    margin: 0;
+  }
+  .portofolio img {
+    width: 250px !important;
+  }
+  .team .content .card {
+    flex-direction: column;
+  }
+  .team .content .card .card-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .team .content .card .card-text p {
+    text-align: center;
+  }
+  .portofolio .text p {
+    width: 100% !important;
+  }
+  .testiomonials .feedback {
+    width: 100%;
+  }
+  .testiomonials .feedback .details h2 {
+    font-size: 16px;
+  }
+  .testiomonials .feedback .details p {
+    font-size: 12px;
+  }
+  .testiomonials .feedback .details i {
+    font-size: 40px;
+  }
+  footer ul li {
+    margin: 5px;
+  }
+  footer ul li a {
+    font-size: 10px;
+  }
+}
